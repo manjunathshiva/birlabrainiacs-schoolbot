@@ -2,14 +2,14 @@ import streamlit as st
 import requests
 
 # Set page title and header
-st.title("LLama Hackathon")
-st.text("FastAPI, Restack, Together AI, LLamaIndex, SerpApi, Qdranrt")
+st.title("Birlabrainiacs School Assistant 🏫")
+st.markdown("An intelligent chatbot designed to help students, parents, and staff access academic information through an intuitive chat interface.")
 
 # Create text area for user input with session state
 if "user_input" not in st.session_state:
     st.session_state.user_input = ""
 
-query = st.text_input("Query BB", key="query", value="What are the skill development certificate courses offered by School ?")
+query = st.text_input("Ask me about academic calendar, exam schedules, or courses...", key="query", value="What are the skill development certificate courses offered by School ?")
 #count = st.number_input("Number of results", key="count", value=1)
 count = 1
 # Initialize response history in session state
