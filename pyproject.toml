@@ -1,9 +1,9 @@
 [tool.poetry]
-name = "llama_quickstart"
+name = "Birlabrainiacs School Assistant "
 version = "0.0.1"
-description = "A quickstart example showcasing streamlit, fastapi, togetherai and llamaindex"
+description = "An intelligent chatbot created during the Llama Impact Hackathon, designed specifically for Birla Brainiacs School. This assistant helps students, parents, and staff access academic information through an intuitive chat interface."
 authors = [
-    "Restack Team <service@restack.io>",
+    "Manjunath Janardhan <manjunath.shiva@gmail.com>",
 ]
 readme = "README.md"
 packages = [{include = "src"}]
