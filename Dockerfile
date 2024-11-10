@@ -39,7 +39,7 @@ RUN poetry install
 
 
 # Copy environment variables file
-COPY .env .env
+COPY .env.example .env
 
 # Create startup script
 RUN echo '#!/bin/bash\n\
