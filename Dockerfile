@@ -28,7 +28,7 @@ ENV PATH="${POETRY_HOME}/bin:$PATH"
 WORKDIR /app
 
 # Copy project files
-COPY pyproject.toml poetry.lock README.md ./
+COPY pyproject.toml  README.md ./
 COPY src/ ./src/
 COPY data/ ./data/
 COPY frontend.py ingestion.py ./
