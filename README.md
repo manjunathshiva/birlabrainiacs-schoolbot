@@ -19,8 +19,9 @@ This assistant helps students, parents, and staff access academic information th
       - Course Portions
 
 - **Intelligent Response System**
-   - First searches the school website
-   - Then queries the RAG system
+   - Simultaneously searches both the school website and RAG system
+   - Combines results from both sources for comprehensive answers
+   - Leverages web content for current information and RAG system for detailed knowledge
    - Provides clear "Information not found" responses when needed
 
 ## 🚀 Quick Start
